@@ -1,4 +1,4 @@
-{{var getToken = true;
+var getToken = true;
 var OAUTH_URL = pm.environment.get("apim-host");
 var OAUTH_BASIC = pm.environment.get("OAUTH_BASIC");
 var OAUTH_USERNAME = pm.environment.get("OAUTH_USERNAME");
@@ -48,4 +48,4 @@ if (getToken === true) {
         }        
     });  
         
-}}}
+}
